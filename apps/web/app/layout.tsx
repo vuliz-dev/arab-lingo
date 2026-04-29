@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Arabic Dictionary | Master the Language Deeper',
+  title: 'ArabLingo | Master the Language Deeper',
   description: 'A modern dictionary and phrasebook for learning Arabic. Get deep explanations, practical examples, cultural guides, and conversation modes for both learners and native speakers.',
   generator: 'v0.app',
   icons: {

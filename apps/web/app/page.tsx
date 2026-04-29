@@ -9,10 +9,8 @@ export default function Home() {
       {/* Navigation */}
       <nav className="flex items-center justify-between px-6 md:px-12 py-6">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold">
-            ع
-          </div>
-          <span className="text-xl font-bold text-foreground">Arabic Dict</span>
+          <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-8 h-8" />
+          <span className="text-xl font-bold text-foreground">ArabLingo</span>
         </div>
         <div className="flex gap-3">
           <Button 
@@ -120,7 +118,7 @@ export default function Home() {
               <span className="text-primary">for natives and learners</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Arabic Dict delivers a precise, modern dictionary experience—bridging the gap between basic tools and true linguistic mastery for both natives and learners.
+              ArabLingo delivers a precise, modern dictionary experience—bridging the gap between basic tools and true linguistic mastery for both natives and learners.
             </p>
           </div>
 
@@ -241,7 +239,7 @@ export default function Home() {
               Ready to dive into Arabic?
             </h2>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-              Join thousands of learners and native speakers discovering the true depth of the Arabic language. Download Arabic Dict today.
+              Join thousands of learners and native speakers discovering the true depth of the Arabic language. Download ArabLingo today.
             </p>
           </div>
 
@@ -268,10 +266,8 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 mb-8">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold">
-                ع
-              </div>
-              <span className="text-lg font-bold text-foreground">Arabic Dict</span>
+              <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-8 h-8" />
+              <span className="text-lg font-bold text-foreground">ArabLingo</span>
             </div>
             <div className="flex gap-6 md:gap-12 text-sm text-muted-foreground">
               <a href="#" className="hover:text-foreground transition-colors">
@@ -286,7 +282,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center text-sm text-muted-foreground border-t border-border pt-8">
-            <p>© 2024 Arabic Dict. All rights reserved.</p>
+            <p>© 2024 ArabLingo. All rights reserved.</p>
           </div>
         </div>
       </footer>
