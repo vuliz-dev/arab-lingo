@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <div className="bg-background">
       {/* Navigation */}
-      <nav className="flex items-center justify-between px-6 md:px-12 py-6">
+      <nav className="flex items-center justify-between px-4 sm:px-6 md:px-12 py-4 md:py-6">
         <div className="flex items-center gap-2">
-          <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-8 h-8" />
-          <span className="text-xl font-bold text-foreground">ArabLingo</span>
+          <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-8 h-8 shrink-0" />
+          <span className="text-xl font-bold text-foreground whitespace-nowrap">ArabLingo</span>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-2 sm:gap-3">
           <Button 
             variant="outline" 
-            className="rounded-full border-2 text-foreground hover:bg-muted"
+            className="hidden sm:inline-flex rounded-full border-2 text-foreground hover:bg-muted"
           >
             Try Web Version
           </Button>
@@ -26,7 +26,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="px-6 md:px-12 py-16 md:py-24">
+      <section className="px-4 sm:px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
@@ -63,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* Mobile Preview Section */}
-      <section className="px-6 md:px-12 py-16 md:py-24">
+      <section className="px-4 sm:px-6 md:px-12 py-16 md:py-24 overflow-hidden">
         <div className="max-w-5xl mx-auto">
           <div className="flex justify-center items-end">
             {/* Phone Mockup */}
@@ -94,13 +94,13 @@ export default function Home() {
               </div>
 
               {/* Feature labels */}
-              <div className="absolute -left-24 top-20 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <div className="hidden md:block absolute -left-24 top-20 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                 Deep Meanings
               </div>
-              <div className="absolute -right-24 top-40 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <div className="hidden md:block absolute -right-24 top-40 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                 Practical Examples
               </div>
-              <div className="absolute -bottom-8 -right-32 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <div className="hidden md:block absolute -bottom-8 -right-32 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                 Audio Pronunciation
               </div>
             </div>
