@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "tryWeb": "Try Web Version",
+    "downloadApp": "Download App"
+  },
+  "hero": {
+    "badge": "Arabic like you've never experienced",
+    "headline1": "Real Meanings.",
+    "headline2": "Not Just Translation.",
+    "description": "The complete Arabic dictionary for learners and native speakers — deep explanations, noun classes, cultural insights, and audio in every word.",
+    "downloadAndroid": "Download for Android",
+    "androidBadge": "7.0+",
+    "appleWaitlist": "Apple Waitlist",
+    "tryWeb": "Try Web",
+    "subtext": "Free · No account required · iOS coming soon"
+  },
+  "phone": {
+    "appName": "ArabLingo",
+    "audio": "Audio",
+    "save": "Save",
+    "words": [
+      {
+        "arabic": "محبة",
+        "transliteration": "maḥabba",
+        "meaning": "love, deep affection",
+        "tag": "Noun · Feminine",
+        "example": "قلبي مليء بالمحبة",
+        "exampleTranslation": "My heart is full of love"
+      },
+      {
+        "arabic": "سلام",
+        "transliteration": "salām",
+        "meaning": "peace, greeting",
+        "tag": "Noun · Masculine",
+        "example": "السلام عليكم",
+        "exampleTranslation": "Peace be upon you"
+      },
+      {
+        "arabic": "كتاب",
+        "transliteration": "kitāb",
+        "meaning": "book, written work",
+        "tag": "Noun · Masculine",
+        "example": "أقرأ كتاباً كل أسبوع",
+        "exampleTranslation": "I read a book every week"
+      }
+    ]
+  },
+  "wotd": {
+    "label": "Word of the Day",
+    "arabic": "صبر",
+    "transliteration": "ṣabr",
+    "meaning": "patience, perseverance",
+    "tag": "Noun · Masculine",
+    "root": "ص-ب-ر",
+    "rootLabel": "Root:",
+    "example": "الصبر مفتاح الفرج",
+    "exampleTranslation": "Patience is the key to relief",
+    "note": "The root ص-ب-ر appears in the Quran 90 times, reflecting the deep cultural weight of patience in Arabic tradition."
+  },
+  "features": {
+    "sectionTitle": "A modern dictionary,",
+    "sectionSubtitle": "for natives and learners",
+    "sectionDesc": "ArabLingo bridges the gap between basic tools and true linguistic mastery.",
+    "save": {
+      "title": "Save & History",
+      "desc": "Bookmark favourite words and revisit your full search history to reinforce learning at your own pace."
+    },
+    "discover": {
+      "title": "Discover Vocabulary",
+      "desc": "Explore trending words and curated topic collections — from food to feelings, travel to tradition."
+    },
+    "growth": {
+      "title": "Continuous Growth",
+      "desc": "500+ essential words, cultural insights, and phrases updated regularly so your Arabic never stops growing."
+    }
+  },
+  "deepDive": {
+    "title": "Everything You Need",
+    "desc": "Four pillars that make ArabLingo the most complete Arabic learning tool available.",
+    "learnMore": "Learn more",
+    "dictionary": {
+      "badge": "Core Feature",
+      "title": "Dictionary Lookup",
+      "desc": "Comprehensive definitions with meanings in English and Vietnamese, Arabic phonetic transcriptions, root etymology, and noun class tagging. Every word in full context."
+    },
+    "conversation": {
+      "badge": "Interactive",
+      "title": "Conversation Mode",
+      "desc": "Interactive dialogue practice with realistic scenarios. Pick your role — student, traveller, professional — and practise natural exchanges with instant feedback."
+    },
+    "phrasebook": {
+      "badge": "Practical",
+      "title": "Phrasebook",
+      "desc": "Practical phrases organised by context: greetings, restaurants, shopping, emergencies, and travel. Ready to use, immediately useful."
+    },
+    "culture": {
+      "badge": "Cultural",
+      "title": "Culture Guide",
+      "desc": "Go beyond the language. Learn cultural norms, etiquette, food traditions, and social practices for Arabic-speaking regions around the world."
+    }
+  },
+  "testimonials": {
+    "title": "Loved by learners everywhere",
+    "subtitle": "From first-time learners to professional translators.",
+    "items": [
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Arabic teacher, Cairo",
+        "text": "ArabLingo captures the nuance that other dictionaries miss. My students finally understand why a word feels the way it does — not just what it means."
+      },
+      {
+        "name": "Marcus Chen",
+        "role": "Language learner",
+        "text": "The animated search and cultural notes are game-changers. I've tried five Arabic apps — this is the only one that makes me feel the language."
+      },
+      {
+        "name": "Leila Bouaziz",
+        "role": "Translator, Tunis",
+        "text": "Finally an app that shows root connections and noun class. The phrasebook saves me hours when working with clients from different regions."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to dive into Arabic?",
+    "desc": "Join thousands of learners and native speakers discovering the true depth of the Arabic language.",
+    "downloadAndroid": "Download for Android",
+    "appleWaitlist": "Join Apple Waitlist",
+    "tryWeb": "Try Web Version",
+    "subtext": "Free forever. No credit card required."
+  },
+  "footer": {
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 ArabLingo. All rights reserved."
+  }
+}

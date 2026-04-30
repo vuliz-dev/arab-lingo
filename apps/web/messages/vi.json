@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "tryWeb": "Dùng Phiên Bản Web",
+    "downloadApp": "Tải Ứng Dụng"
+  },
+  "hero": {
+    "badge": "Tiếng Ả Rập theo cách bạn chưa từng trải nghiệm",
+    "headline1": "Ý Nghĩa Thật Sự.",
+    "headline2": "Không Chỉ Là Dịch Thuật.",
+    "description": "Từ điển Ả Rập toàn diện cho người học và người bản ngữ — giải thích sâu, phân loại danh từ, thông tin văn hoá và phát âm trong từng từ.",
+    "downloadAndroid": "Tải về cho Android",
+    "androidBadge": "7.0+",
+    "appleWaitlist": "Đăng ký chờ Apple",
+    "tryWeb": "Dùng thử Web",
+    "subtext": "Miễn phí · Không cần tài khoản · iOS sắp ra mắt"
+  },
+  "phone": {
+    "appName": "ArabLingo",
+    "audio": "Phát âm",
+    "save": "Lưu",
+    "words": [
+      {
+        "arabic": "محبة",
+        "transliteration": "maḥabba",
+        "meaning": "tình yêu, tình cảm sâu sắc",
+        "tag": "Danh từ · Giống cái",
+        "example": "قلبي مليء بالمحبة",
+        "exampleTranslation": "Trái tim tôi tràn đầy tình yêu"
+      },
+      {
+        "arabic": "سلام",
+        "transliteration": "salām",
+        "meaning": "hòa bình, lời chào",
+        "tag": "Danh từ · Giống đực",
+        "example": "السلام عليكم",
+        "exampleTranslation": "Bình an cho bạn"
+      },
+      {
+        "arabic": "كتاب",
+        "transliteration": "kitāb",
+        "meaning": "cuốn sách, tác phẩm viết",
+        "tag": "Danh từ · Giống đực",
+        "example": "أقرأ كتاباً كل أسبوع",
+        "exampleTranslation": "Tôi đọc một cuốn sách mỗi tuần"
+      }
+    ]
+  },
+  "wotd": {
+    "label": "Từ Vựng Hôm Nay",
+    "arabic": "صبر",
+    "transliteration": "ṣabr",
+    "meaning": "sự kiên nhẫn, sự bền bỉ",
+    "tag": "Danh từ · Giống đực",
+    "root": "ص-ب-ر",
+    "rootLabel": "Gốc từ:",
+    "example": "الصبر مفتاح الفرج",
+    "exampleTranslation": "Kiên nhẫn là chìa khoá của sự giải thoát",
+    "note": "Gốc từ ص-ب-ر xuất hiện 90 lần trong Kinh Qur'an, phản ánh tầm quan trọng sâu sắc của đức kiên nhẫn trong văn hoá Ả Rập."
+  },
+  "features": {
+    "sectionTitle": "Từ điển hiện đại,",
+    "sectionSubtitle": "cho người bản ngữ và người học",
+    "sectionDesc": "ArabLingo thu hẹp khoảng cách giữa công cụ cơ bản và sự thông thạo ngôn ngữ thực sự.",
+    "save": {
+      "title": "Lưu & Lịch Sử",
+      "desc": "Đánh dấu từ yêu thích và xem lại toàn bộ lịch sử tìm kiếm để củng cố việc học theo tốc độ của bạn."
+    },
+    "discover": {
+      "title": "Khám Phá Từ Vựng",
+      "desc": "Khám phá những từ đang thịnh hành và các bộ sưu tập chủ đề — từ ẩm thực đến cảm xúc, du lịch đến truyền thống."
+    },
+    "growth": {
+      "title": "Phát Triển Liên Tục",
+      "desc": "500+ từ thiết yếu, thông tin văn hoá và cụm từ được cập nhật thường xuyên để tiếng Ả Rập của bạn không ngừng phát triển."
+    }
+  },
+  "deepDive": {
+    "title": "Tất Cả Những Gì Bạn Cần",
+    "desc": "Bốn trụ cột giúp ArabLingo trở thành công cụ học tiếng Ả Rập toàn diện nhất hiện có.",
+    "learnMore": "Tìm hiểu thêm",
+    "dictionary": {
+      "badge": "Tính Năng Cốt Lõi",
+      "title": "Tra Cứu Từ Điển",
+      "desc": "Định nghĩa toàn diện với nghĩa bằng tiếng Anh và tiếng Việt, phiên âm tiếng Ả Rập, từ nguyên gốc và phân loại danh từ. Mỗi từ đều có đầy đủ ngữ cảnh."
+    },
+    "conversation": {
+      "badge": "Tương Tác",
+      "title": "Chế Độ Hội Thoại",
+      "desc": "Luyện tập đối thoại với các tình huống thực tế. Chọn vai trò của bạn — học sinh, khách du lịch, chuyên gia — và thực hành giao tiếp tự nhiên với phản hồi tức thì."
+    },
+    "phrasebook": {
+      "badge": "Thực Tiễn",
+      "title": "Sổ Tay Cụm Từ",
+      "desc": "Các cụm từ thực dụng được sắp xếp theo ngữ cảnh: chào hỏi, nhà hàng, mua sắm, khẩn cấp và du lịch. Sẵn sàng sử dụng ngay lập tức."
+    },
+    "culture": {
+      "badge": "Văn Hoá",
+      "title": "Hướng Dẫn Văn Hoá",
+      "desc": "Vượt ra ngoài ngôn ngữ. Tìm hiểu chuẩn mực văn hoá, phép lịch sự, truyền thống ẩm thực và thực hành xã hội của các vùng nói tiếng Ả Rập trên thế giới."
+    }
+  },
+  "testimonials": {
+    "title": "Được yêu thích bởi người học khắp nơi",
+    "subtitle": "Từ người mới học lần đầu đến dịch giả chuyên nghiệp.",
+    "items": [
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Giáo viên tiếng Ả Rập, Cairo",
+        "text": "ArabLingo nắm bắt được những sắc thái mà các từ điển khác bỏ lỡ. Học sinh của tôi cuối cùng đã hiểu tại sao một từ lại mang cảm giác như vậy — không chỉ đơn giản là nghĩa của nó."
+      },
+      {
+        "name": "Marcus Chen",
+        "role": "Người học ngôn ngữ",
+        "text": "Hoạt ảnh tìm kiếm và ghi chú văn hoá thực sự thay đổi cuộc chơi. Tôi đã thử năm ứng dụng tiếng Ả Rập — đây là ứng dụng duy nhất giúp tôi cảm nhận được ngôn ngữ."
+      },
+      {
+        "name": "Leila Bouaziz",
+        "role": "Dịch giả, Tunis",
+        "text": "Cuối cùng đã có một ứng dụng hiển thị mối liên hệ gốc từ và phân loại danh từ. Sổ tay cụm từ tiết kiệm cho tôi nhiều giờ khi làm việc với khách hàng từ các vùng khác nhau."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng khám phá tiếng Ả Rập?",
+    "desc": "Tham gia cùng hàng nghìn người học và người bản ngữ đang khám phá chiều sâu thật sự của tiếng Ả Rập.",
+    "downloadAndroid": "Tải về cho Android",
+    "appleWaitlist": "Đăng ký chờ Apple",
+    "tryWeb": "Dùng Phiên Bản Web",
+    "subtext": "Miễn phí mãi mãi. Không cần thẻ tín dụng."
+  },
+  "footer": {
+    "contact": "Liên hệ",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách bảo mật",
+    "copyright": "© 2025 ArabLingo. Bảo lưu mọi quyền."
+  }
+}
