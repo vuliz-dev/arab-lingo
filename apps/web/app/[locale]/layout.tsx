@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { ThemeProvider } from '@/components/theme-provider';
+import { AuthProvider } from '@/components/auth/auth-provider';
 import { routing } from '@/i18n/routing';
 import '../globals.css';
 
@@ -50,7 +51,9 @@ export default async function LocaleLayout({
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-            {children}
+            <AuthProvider>
+              {children}
+            </AuthProvider>
             {process.env.NODE_ENV === 'production' && <Analytics />}
           </ThemeProvider>
         </NextIntlClientProvider>

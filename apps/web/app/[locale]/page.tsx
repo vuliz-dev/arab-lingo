@@ -3,8 +3,10 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from '@/components/language-switcher';
+import { useAuth } from '@/components/auth/auth-provider';
 import {
   BookOpen, Globe, Lightbulb, Mic, Bookmark, ArrowRight,
   Moon, Sun, Smartphone, Monitor, Star, Quote, Volume2,
@@ -142,8 +144,11 @@ function PhoneMockup({ words, labels }: { words: DemoWord[]; labels: { audio: st
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
+  const { user } = useAuth();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
+
+  const tryWebHref = user ? '/app' : '/sign-in';
 
   const n = useTranslations('nav');
   const h = useTranslations('hero');
@@ -211,8 +216,8 @@ export default function Home() {
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
           )}
-          <Button variant="outline" className="hidden sm:inline-flex rounded-full border-2">
-            {n('tryWeb')}
+          <Button asChild variant="outline" className="hidden sm:inline-flex rounded-full border-2">
+            <Link href={tryWebHref}>{n('tryWeb')}</Link>
           </Button>
           <Button variant="default" className="rounded-full">
             {n('downloadApp')}
@@ -252,9 +257,11 @@ export default function Home() {
                 <Button size="lg" variant="outline" className="rounded-full px-6 font-semibold border-2">
                   {h('appleWaitlist')}
                 </Button>
-                <Button size="lg" variant="ghost" className="rounded-full px-6 font-semibold">
-                  <Monitor className="w-4 h-4 me-2" />
-                  {h('tryWeb')}
+                <Button asChild size="lg" variant="ghost" className="rounded-full px-6 font-semibold">
+                  <Link href={tryWebHref}>
+                    <Monitor className="w-4 h-4 me-2" />
+                    {h('tryWeb')}
+                  </Link>
                 </Button>
               </div>
 
@@ -442,9 +449,11 @@ export default function Home() {
             <Button size="lg" className="rounded-full px-8 text-base font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/25">
               {c('appleWaitlist')}
             </Button>
-            <Button size="lg" className="rounded-full px-8 text-base font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/25">
-              <Monitor className="w-5 h-5 me-2" />
-              {c('tryWeb')}
+            <Button asChild size="lg" className="rounded-full px-8 text-base font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/25">
+              <Link href={tryWebHref}>
+                <Monitor className="w-5 h-5 me-2" />
+                {c('tryWeb')}
+              </Link>
             </Button>
           </div>
 

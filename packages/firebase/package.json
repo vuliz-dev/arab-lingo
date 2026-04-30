@@ -1,0 +1,16 @@
+{
+  "name": "@repo/firebase",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./app": "./src/app.ts",
+    "./auth": "./src/auth.ts"
+  },
+  "dependencies": {
+    "firebase": "^11.0.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "typescript": "5.9.2"
+  }
+}
