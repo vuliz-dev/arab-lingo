@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Sparkles, BookOpen, Mic, Globe } from 'lucide-react';
+import { Sparkles, BookOpen, Mic, Globe, ArrowLeft } from 'lucide-react';
+import { Link } from '@/i18n/navigation';
 import { useAuth } from '@/components/auth/auth-provider';
 import { signInWithGoogle } from '@/lib/firebase/auth';
 
@@ -20,7 +21,7 @@ export default function SignInPage() {
 
   useEffect(() => {
     if (!loading && user) {
-      router.replace('/');
+      router.replace('/app');
     }
   }, [user, loading, router]);
 
@@ -78,10 +79,10 @@ export default function SignInPage() {
         </div>
 
         {/* Logo */}
-        <div className="relative z-10 flex items-center gap-3">
+        <Link href="/" className="relative z-10 flex items-center gap-3 w-fit hover:opacity-80 transition-opacity">
           <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-10 h-10" />
           <span className="text-2xl font-bold text-white">ArabLingo</span>
-        </div>
+        </Link>
 
         {/* Center content */}
         <div className="relative z-10 space-y-8">
@@ -129,13 +130,33 @@ export default function SignInPage() {
       <div className="flex-1 flex flex-col bg-background">
 
         {/* Mobile logo bar */}
-        <div className="lg:hidden flex items-center gap-2 px-6 py-5 border-b border-border">
-          <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-7 h-7" />
-          <span className="text-lg font-bold text-foreground">ArabLingo</span>
+        <div className="lg:hidden flex items-center justify-between px-6 py-5 border-b border-border">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
+            <img src="/arab-lingo-logo.svg" alt="ArabLingo" className="w-7 h-7" />
+            <span className="text-lg font-bold text-foreground">ArabLingo</span>
+          </Link>
+          <Link
+            href="/"
+            className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back
+          </Link>
+        </div>
+
+        {/* Back button — desktop only */}
+        <div className="hidden lg:flex px-8 pt-6">
+          <Link
+            href="/"
+            className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to home
+          </Link>
         </div>
 
         {/* Form centered vertically */}
-        <div className="flex-1 flex items-center justify-center px-6 py-12">
+        <div className="flex-1 flex items-center justify-center px-6 py-8">
           <div className="w-full max-w-sm space-y-8">
 
             {/* Heading */}
